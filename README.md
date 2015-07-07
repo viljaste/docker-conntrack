@@ -2,7 +2,7 @@
 
 Usage
 
-    docker run --rm --net host --privileged viljaste/conntrack:latest --help
+    docker run --rm --net host --cap-add NET_ADMIN viljaste/conntrack:latest --help
 
 ## License
 
